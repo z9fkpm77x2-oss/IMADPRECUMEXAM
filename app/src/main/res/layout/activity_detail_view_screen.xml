@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/etItemName"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailViewScreen">
+
+    <TextView
+        android:id="@+id/lvItems"
+        android:layout_width="289dp"
+        android:layout_height="130dp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="285dp"
+        android:layout_height="149dp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="299dp"
+        android:layout_height="158dp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shopping List"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="13dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
